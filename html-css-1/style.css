@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+    
+    header{
+        background-color: gray;
+        height: 80px ;
+        width: 100%;
+        
+
+    }
+    
+    h1{
+        color: white;
+        margin: 0
+    }
+    
+    li{
+        display: inline;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        float: right;
+        color: white;
+        background-color: gray;
+    }
+    
+    .middle{
+        background-color: black;
+        width: 100vw;
+        height: 45vh;
+        margin-top: 0;
+        
+    }
+    
+    .middletext {
+        color: yellow;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+       font-size: 50px;
+       
+    }
+    
+    .box{
+    background-color: aquamarine;
+    height: 24vh;
+    width: 24vw; 
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    
+    
+    }
+    
+    
+    
+    .square{
+    background-color: orange;
+    height: 300px;
+    width: 40%;
+    margin: 4rem;
+    display: inline-block;
+    }
+    
+     
+
+    
+.artical-paragraph {
+    text-align: left;
+    width: 40%;
+}
+
+
+img {
+    width: 15%;
+    justify-content: flex-end;
+    display: inline-block;
+}
